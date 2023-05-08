@@ -1,1 +1,1 @@
-# spring-security-issue-demo
+# Demo project to reproduce spring-security issue
