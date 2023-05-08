@@ -1,6 +1,8 @@
-## Demo project to reproduce spring-security issue
+## Demo project to reproduce spring-security issue #13140
 
-Spring Boot application has two REST endpoints that mapped to the same path but different HTTP methods - see `com.example.reproduce.controller.ItemController` class.
+Link to the issue: https://github.com/spring-projects/spring-security/issues/13140
+
+This Spring Boot demo application has two REST endpoints that mapped to the same path but different HTTP methods - see `com.example.reproduce.controller.ItemController` class.
 
 Permissions configuration: PUT endpoint may be executed only by user having "ADMIN" role, GET endpoint is permitted for all - see `com.example.reproduce.config.WebSecurityConfig` class.
 
